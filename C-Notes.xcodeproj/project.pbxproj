@@ -6,10 +6,48 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		03E5984C2DF38C4C00CE8B7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		03E598192DF38C4C00CE8B7B /* Arduino */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Arduino;
+			sourceTree = "<group>";
+		};
+		03E5981C2DF38C4C00CE8B7B /* C */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = C;
+			sourceTree = "<group>";
+		};
+		03E5983A2DF38C4C00CE8B7B /* C++ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		03E598452DF38C4C00CE8B7B /* Maths */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		03E5984B2DF38C4C00CE8B7B /* Obj-C */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Obj-C";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
 		030FF9A52DF38C1E00C6E058 = {
 			isa = PBXGroup;
 			children = (
+				03E598192DF38C4C00CE8B7B /* Arduino */,
+				03E5981C2DF38C4C00CE8B7B /* C */,
+				03E5983A2DF38C4C00CE8B7B /* C++ */,
+				03E598452DF38C4C00CE8B7B /* Maths */,
+				03E5984B2DF38C4C00CE8B7B /* Obj-C */,
+				03E5984C2DF38C4C00CE8B7B /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
